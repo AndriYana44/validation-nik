@@ -6,7 +6,8 @@ const char* ssid = "vivo 2019";
 const char* pass = "12345678an";
 
 int led = D4;
-String server = "http://192.168.43.197:8080/?nik=3211027103980002";
+String nik = "123456789";
+String server = "http://192.168.43.197:8080/?nik=" + nik;
 int requestHTTPGetCode(String server);
 
 void setup() {
